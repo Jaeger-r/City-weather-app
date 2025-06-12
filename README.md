@@ -42,7 +42,7 @@ adapters =》适配器模块
 network =》网络模块
 - WeatherNetwork
 - WeatherViewModel
-  - WeatherViewModelFactory
+- WeatherViewModelFactory
 
 ## 总体设计
 
