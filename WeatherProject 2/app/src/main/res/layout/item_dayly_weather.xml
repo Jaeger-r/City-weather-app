@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_marginBottom="12dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:background="@drawable/blue_gradient_bg"
+    android:paddingVertical="8dp">
+
+    <!-- 日期/星期 -->
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        tools:text="今天"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        tools:text="晴"/>
+
+    <!-- 温区范围 -->
+    <TextView
+        android:id="@+id/tvTemperatureRange"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        tools:text="16°"/>
+
+    <!-- 湿度 -->
+    <TextView
+        android:id="@+id/tvHumidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        tools:text="70%"/>
+
+</LinearLayout>
