@@ -47,7 +47,8 @@ network =》网络模块
 ## 总体设计
 
 页面转换设计如下
-![20250612-135443](https://github.com/user-attachments/assets/c801b0dd-6466-4bcc-a107-f9af400f3e74)
+![image-2](https://github.com/user-attachments/assets/7ccd995e-66e9-4da5-9a23-f4047e4ae898)
+
 系统流程图如下
 ![20250612-135454](https://github.com/user-attachments/assets/5d4c26df-ca22-4cff-abe6-45014811f676)
 
