@@ -22,46 +22,34 @@ writer（以下排名不分顺序，由首字母进行排序）
 本项目项目文件结构如下
 com.example.weatherproject
 activities =》视图模块
-	AddCityActivity
-
-​	CityListActivity
-
-​	temActivity
-
-​	WeatherActivity
+- AddCityActivity
+​- CityListActivity
+- itemActivity
+- WeatherActivity
 adapters =》适配器模块
-​	DailyWeatherAdapter
-​	HourlyWeatherAdapter
+- DailyWeatherAdapter
+- HourlyWeatherAdapter
  db =》数据模块
-​	WeatherData
-
-​	WeatherDbHelper
-
-​	WeatherJsonParser
-
-​	WeatherRepository
+- WeatherData
+- WeatherDbHelper
+- WeatherJsonParser
+- WeatherRepository
  models =》数据类模块
-
-​	 DailyWeather
-
-​	HourlyWeather
-
-​	City
+- DailyWeather
+- HourlyWeather
+- City
 
 network =》网络模块
-
-​	WeatherNetwork
-
-​	WeatherViewModel
-
-​	WeatherViewModelFactory
+- WeatherNetwork
+- WeatherViewModel
+  - WeatherViewModelFactory
 
 ## 总体设计
 
 页面转换设计如下
-![alt text](image-2.png)
+![20250612-135443](https://github.com/user-attachments/assets/c801b0dd-6466-4bcc-a107-f9af400f3e74)
 系统流程图如下
-![alt text](image-1.png)
+![20250612-135454](https://github.com/user-attachments/assets/5d4c26df-ca22-4cff-abe6-45014811f676)
 
 ## 详细设计
 
